@@ -1,0 +1,4 @@
+def reverse(txt: str) -> str:
+    return txt[txt::-1]
+
+print(reverse('eryk'))
